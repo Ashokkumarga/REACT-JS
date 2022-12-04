@@ -9,9 +9,6 @@ const CurrentDate = (props) => {
 };
 
 class Date extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return <h3>What is the Current Date ?</h3>;
     <CurrentDate date={Date()} />;
